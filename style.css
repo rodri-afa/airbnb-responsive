@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1 {
-    color: red;
+#main {
+    padding: 12px 12px 24px;
 }
 footer {
     background-color: gray;
@@ -48,10 +48,16 @@ footer {
         flex-direction: row;
         flex-wrap: wrap;
     }
+    #disclaimer {
+        width: 80%;
+    }
 }
 @media (max-width: 400px) {
     .columna ul {
         flex-direction: column;
         flex-wrap: nowrap;
+    }
+    #disclaimer {
+        width: 100%;
     }
 }
